@@ -1,0 +1,77 @@
+<?php
+	if(isset($_GET['dieuhuong']))
+		$dieuhuong=$_GET['dieuhuong'];
+//	if(isset($dieuhuong))
+	switch($dieuhuong){
+		case"about":
+			include"about.php";
+			break;
+		case"contact":
+			include"contact.php";
+			break;
+		case"new":
+			include"new.php";
+			break;
+		case"product":
+			include"pro.php";
+			break;
+		case"grid":
+			include"pro.php";
+			break;
+		case"list":
+			include"list.php";
+			break;
+		case"home":
+			include"home.php";
+			break;
+		
+		case"sanpham":
+			include"product.php";
+			break;
+		case"upload":
+			include"upload.php";
+			break;
+
+		case"delete":
+			include"delete.php";
+			break;
+		case"change":
+			include"change.php";
+			break;
+		case"checkout":
+			include"checkout.php";
+			break;
+		case"search":
+			include"search.php";
+			break;
+		case"new02":
+			include"new02.php";
+			break;
+
+		case"sale":
+			include"sale.php";
+			break;
+		case"nsx":
+			include"nsx.php";
+			break;
+		case"adminproduct":
+			include"adminproduct.php";
+			break;
+		case"user":
+			include"user.php";
+			break;
+		case"producer":
+			include"producer.php";
+			break;
+		case"addproducer":
+			include"addproducer.php";
+			break;
+		case"adminorder":
+			include"adminorder.php";
+			break;
+		case"thanhtoan":
+			include"thanhtoan.php";
+			break;
+		
+	}
+?>
